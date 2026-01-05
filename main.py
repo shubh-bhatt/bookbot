@@ -9,13 +9,8 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
-   
-
-    
+        
     str = get_book_text(sys.argv[1])
-
-
-
     num_words = number_of_words(str)
     print(f"""============ BOOKBOT ============
 Analyzing book found at books/frankenstein.txt...
